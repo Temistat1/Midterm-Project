@@ -38,28 +38,25 @@ nav ul li a:hover {
 
 /* Full-screen hero section */
 .hero {
+    background: url('images/congo_hero.jpg') no-repeat center center/cover;
+    height: 100vh;
     position: relative;
-    background-image: url('images/congo_people.jpg');
-    background-size: cover;
-    background-position: center;
-    height: 100vh; /* Full screen height */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    color: white;
 }
 
-.overlay {
-    background-color: rgba(0, 0, 0, 0.5); /* Dark overlay */
-    padding: 20px;
-    text-align: center;
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
     width: 100%;
-    max-width: 600px;
-    margin: 0 auto;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    text-align: center;
 }
-
-
-
 
 .cta-button {
     margin-top: 20px;
@@ -114,4 +111,4 @@ footer {
     padding: 20px;
     background-color: #4CAF50;
     color: white;
-}
+} add a style to the picture in this container only leave the rest the sam
