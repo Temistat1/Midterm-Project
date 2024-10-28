@@ -38,7 +38,7 @@ nav ul li a:hover {
 
 /* Full-screen hero section */
 .hero {
-    background: url('images/congo_hero.jpg') no-repeat center center/cover;
+    background: url('images/congo_people.jpg') no-repeat center center/cover;
     height: 100vh;
     position: relative;
 }
