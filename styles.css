@@ -90,6 +90,8 @@ nav ul li a:hover {
 .card-image {
     width: 100%;
     height: auto;
+    Aspect-ratio: 16/9
+    object-fit: cover
 }
 
 /* Parallax section */
