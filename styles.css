@@ -58,16 +58,7 @@ nav ul li a:hover {
     text-align: center;
 }
 
-/* Styling for hero section image */
-.hero-image {
-    width: 100%;
-    max-width: 1000px;
-    height: 500px;
-    border-radius: 8px;
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-    margin-bottom: 20px; /* Space between image and text */
-    opacity: 0.9; /* Slight transparency to blend with overlay */
-}
+
 
 
 .cta-button {
